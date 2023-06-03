@@ -1,0 +1,41 @@
+* {
+    font-family: "roboto", Helvetica;
+}
+
+body {
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+
+    margin: 0;
+}
+
+.header-container {
+    display:flex;
+    color: white;
+    background-color: #1F2937;
+    
+    flex-basis: 50px;
+    flex-grow: 1;
+    
+    justify-content:space-between;
+}
+
+#header-logo {
+    margin: auto;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.links-container {
+    display:flex;
+    margin:auto;
+
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 30px;
+}
+
+.top-third{
+    background-color: #1F2937;
+}

@@ -43,15 +43,38 @@ a {
 .top-third {
     background-color: #1F2937;
     display:flex;
+    justify-content:space-evenly;
 }
 
 .top-third .left-half > h1 {
+
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
+.top-third .left-half > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .left-half {
+    flex: 1;
     display:flex;
     flex-direction: column;
+
+    margin-left: 150px;
+    margin-right: 50px;
+    border: 100px white;
+    padding: 10px;
+    word-wrap:break-word;
+}
+
+.right-half {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+
 }
